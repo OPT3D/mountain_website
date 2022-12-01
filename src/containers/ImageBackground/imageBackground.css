@@ -1,0 +1,12 @@
+.background__image {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background__image img {
+    width: 100%;
+
+}
