@@ -1,0 +1,149 @@
+.mountain__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+
+.mountain__header-social {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+
+
+
+.mountain__header-social p {
+    writing-mode: vertical-lr;
+    margin-bottom: 1rem;
+    
+}
+
+.twitter__logo {
+    margin-bottom: 1rem;
+}
+
+.header__icon:hover  {
+    cursor: pointer;
+    color: var(--color-hover);
+}
+
+
+
+.mountain__header-content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.mountain__header-content__down p {
+    padding-right: 0.5rem;
+}
+
+.mountain__header-content__down {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.mountain__header-scroll {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding-top: 3rem;
+}
+
+.mountain__header-scroll ul {
+    list-style: none;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mountain__header-scroll li {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.mountain__header-scroll__scrollbar {
+    height: 120px;
+    padding-left: 0.5rem;
+}
+
+.mountain__header-scroll_scrollbar-link {
+    background: var(--color-hover);
+    width: 2px;
+    height: 30px;
+}
+
+.mountain__header-scroll_scrollbar-link:hover {
+    background: white;
+    width: 2.5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.mountain__header-scroll_scrollbar-link:active {
+    background: rgb(255, 255, 255);
+    width: 3px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+a:active {
+    background-color: black;
+}
+
+@media screen and (max-width:650px) {
+    .mountain__header-scroll {
+        display: none;
+    }
+
+    .mountain__header {
+        flex-direction: column-reverse;
+    }
+
+    .mountain__header-social {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 16rem;
+    }
+
+    .mountain__header-social p {
+        writing-mode: horizontal-tb;
+        margin-bottom: 1rem;
+    }
+
+    .header__icon {
+        margin-left: 1rem;
+    }
+
+    .mountain__header-content h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 60px;
+
+    }
+
+    .mountain__header {
+        margin-top: 3rem;
+        align-items: center;
+    }
+}

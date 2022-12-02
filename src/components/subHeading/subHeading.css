@@ -1,0 +1,20 @@
+.subHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.subHeading p {
+    color: var(--color-gold);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.golden__bar {
+    width: 72px;
+    height: 2px;
+    background: var(--color-gold);
+    margin-right: 0.5rem;
+}
