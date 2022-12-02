@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root {
-  --font-base:'Bentham', serif;
+  --font-base:'Playfair Display', serif;
+  --color-hover: #ebebeb;
   --color-bg: #0B1D26;
   --color-white: #FFFFFF;
   --color-gold: #FBD784;
@@ -19,8 +20,12 @@ a {
   text-decoration: none;
 }
 
-.section__padding {
-  padding: 4rem 6rem;
+.nav__padding {
+  padding: 1rem 2.5rem;
+}
+
+.padding__right {
+  padding-right: 1rem;
 }
 
 .flex-center {
@@ -29,3 +34,23 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 850px) {
+  .nav__padding {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav__padding {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav__padding {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+
